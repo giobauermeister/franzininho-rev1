@@ -305,17 +305,6 @@ F 3 "" H 7825 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_Push_Dual SW1
-U 1 1 595ED306
-P 8075 4450
-F 0 "SW1" H 8125 4550 50  0000 L CNN
-F 1 "SW_RESET" H 8075 4150 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8075 4650 50  0001 C CNN
-F 3 "" H 8075 4650 50  0001 C CNN
-	1    8075 4450
-	0    1    1    0   
-$EndComp
-$Comp
 L OPEN_HARDWARE_1 LOGO1
 U 1 1 595ED39D
 P 5850 2700
@@ -528,8 +517,6 @@ Wire Wire Line
 Wire Wire Line
 	7975 3775 7375 3775
 Wire Wire Line
-	7875 2900 7875 4250
-Wire Wire Line
 	7875 3875 7375 3875
 $Comp
 L +5V #PWR016
@@ -574,10 +561,6 @@ Wire Wire Line
 Wire Wire Line
 	7575 4575 7575 3775
 Connection ~ 7575 3775
-Wire Wire Line
-	7875 4250 8075 4250
-Wire Wire Line
-	8075 4650 7875 4650
 Connection ~ 7875 3875
 $Comp
 L GND #PWR018
@@ -590,8 +573,6 @@ F 3 "" H 7875 4825 50  0001 C CNN
 	1    7875 4825
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7875 4650 7875 4825
 Wire Wire Line
 	3875 4000 3875 4675
 $Comp
@@ -609,4 +590,19 @@ Wire Wire Line
 	2900 2800 2900 2975
 Wire Wire Line
 	2900 3400 2900 3275
+$Comp
+L SW_Push SW1
+U 1 1 595EEE76
+P 7875 4400
+F 0 "SW1" H 7925 4500 50  0000 L CNN
+F 1 "SW_RESET" H 7875 4340 50  0000 C CNN
+F 2 "" H 7875 4600 50  0001 C CNN
+F 3 "" H 7875 4600 50  0001 C CNN
+	1    7875 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7875 2900 7875 4200
+Wire Wire Line
+	7875 4600 7875 4825
 $EndSCHEMATC

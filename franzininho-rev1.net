@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/giovanni/Documents/kicad-projects/franzininho-rev1/franzininho-rev1.sch)
-    (date "Qui 06 Jul 2017 23:05:11 BRT")
+    (date "Sáb 08 Jul 2017 20:36:35 BRT")
     (tool "Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref U2)
       (value USB_conn)
-      (footprint usb_copper:USB_COPPER)
+      (footprint usb_copper:USB_COPPER_2)
       (libsource (lib usb_conn) (part USB_conn))
       (sheetpath (names /) (tstamps /))
       (tstamp 595ECB99))
@@ -249,16 +249,16 @@
         (pin (num 3) (name D+) (type input))
         (pin (num 4) (name GND) (type input)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical switches)
       (uri /usr/share/kicad/library/switches.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical usb_conn)
       (uri /home/giovanni/Documents/kicad-projects/kicad-custom-libraries/usb_conn.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical atmel)
       (uri /usr/share/kicad/library/atmel.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
     (library (logical logo)
       (uri /usr/share/kicad/library/logo.lib)))
   (nets
