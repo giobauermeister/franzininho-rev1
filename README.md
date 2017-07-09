@@ -2,6 +2,8 @@
 
 Essa é a versão KiCAD da placa Franzininho desenvolvida por Fábio Souza
 
+Veja o projeto original feito no Eagle aqui: https://github.com/FBSeletronica/Franzininho
+
 Uma placa Arduino facil de montar. Possui placa de circuito impresso em face simples e componentes pth. 
 
 Essa placa foi desenvolvida para as atividades no FAB LAB Livre SP durante o Arduino Day 2017 em São Paulo: http://arduinosaopaulo.cc
